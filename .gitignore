@@ -1,0 +1,10 @@
+New-Item -Path .gitignore -Value @"
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Rust
+/target/
+**/*.rs.bk
+"@
